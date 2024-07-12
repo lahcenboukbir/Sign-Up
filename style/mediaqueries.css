@@ -1,0 +1,19 @@
+/* Breakpoint for desktops (800px) */
+@media screen and (min-width: 800px) {
+    /* Adjust main container for desktop layout */
+    main {
+        flex-direction: row;
+    }
+
+    /* Adjust form section for desktop layout */
+    .form-section {
+        order: 1; /* Change order to display first */
+        width: 50%; /* Take up 50% of the width */
+    }
+
+    /* Adjust image section for desktop layout */
+    .image-section {
+        order: 2; /* Change order to display second */
+        width: 50%; /* Take up 50% of the width */
+    }
+}
